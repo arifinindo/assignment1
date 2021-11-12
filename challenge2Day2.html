@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <style>
+        html {
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+
+        .main-body {
+            background-color: rgb(219, 217, 217);
+            padding: 50px;
+            height: 80vh;
+        }
+
+        .navbar {
+            display: table;
+            width: 100%;
+        }
+
+        .menu {
+            float: right;
+        }
+
+        ul {
+            list-style: none;
+            text-transform: uppercase;
+        }
+
+        ul li {
+            display: inline;
+            margin: 5px;
+        }
+
+        a:hover {
+            color: blueviolet;
+        }
+
+        a:active {
+            color: brown;
+        }
+
+        a:visited {
+            color: rgb(47, 0, 255);
+        }
+
+        .main-content {
+            max-width: 80%;
+            margin: 0 auto;
+            letter-spacing: 1px;
+        }
+
+        .section-information {
+            background-color: white;
+            padding: 10px;
+          
+            width: 100%;
+        }
+
+        p {
+            margin: 2px;
+        }
+
+        .set-padding {
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .kotak {
+            border: 1px solid black;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            margin-top: 50px;
+
+        }
+
+        .btn {
+            text-align: center;
+        }
+        .warning {
+            background-color: orange;
+            color: white;
+        }
+        .oke {
+            background-color: blue;
+            color: white;
+        }
+        .section-form {
+            width: 100%;
+            margin-top: 20px;
+            background-color: white;
+            padding: 10px;
+        }
+        form div {
+            margin-top: 10px;
+        }
+        form input {
+            width: 99%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">inventory</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-body">
+        <div class="main-content">
+            <div class="section-information">
+
+                <div style="display: flex;">
+                    <div style="flex: 2" class="set-padding">
+                        <img src="assets/images/photo1.jpg" alt="gambar oke" srcset="">
+                    </div>
+                    <div style="flex: 2" class="set-padding">
+                        <p>Arifin</p>
+                        <p>Spesialis Anu</p>
+                        <br><br>
+                        <div style="display: flex;">
+                            <p style="flex: 1;" class="btn oke">Profile</p>
+                            <p style="flex: 1;" class="btn warning">Resume</p>
+                        </div>
+                       
+                    </div>
+                    <div style="flex: 3" class="set-padding">
+                      <div style="display: flex">
+                        <p style="flex: 2;">Availability</p>
+                        <p style="flex: 3;">: Full Time</p>
+                       
+                      </div>
+                      <div style="display: flex">
+                        <p style="flex: 2;">Usia</p>
+                        <p style="flex: 3;">: 17 Tahun</p>
+                      </div>
+                      <div style="display: flex">
+                        <p style="flex: 2;">Lokasi</p>
+                        <p style="flex: 3;">: Depok</p>
+                      </div>
+                      <div style="display: flex">
+                        <p style="flex: 2;">Year Experience</p>
+                        <p style="flex: 3;">: 2 Bulan</p>
+                      </div>
+                      <div style="display: flex">
+                        <p style="flex: 2;">Email</p>
+                        <p style="flex: 3;">: Arifin@Spesialis.com</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="section-form">
+                <form action="#" method="POST">
+                    <div>
+                        <label>Nama :</label>
+                        <input type="text" name="nama">
+                    </div>
+                    <div>
+                        <label>Role :</label>
+                        <input type="text" name="role">
+                    </div>
+                    <div>
+                        <label>Availability :</label>
+                        <input type="text" name="availability">
+                    </div>
+                    <div>
+                        <label>Age :</label>
+                        <input type="number" name="age">
+                    </div>
+                    <div>
+                        <label>Lokasi :</label>
+                        <input type="text" name="lokasi">
+                    </div>
+                    <div>
+                        <label>Year Experience :</label>
+                        <input type="number" name="yearexperience">
+                    </div>
+                    <div>
+                        <label>Email :</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div>
+                        <input class="bg-biru" type="submit" name="Submit">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

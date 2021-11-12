@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        html {
+            max-width: 1370px;
+            margin:0 auto;
+        }
+        .main-body {
+            background-color: rgb(219, 217, 217);
+            padding: 50px;
+        }
+
+        .main-content {
+            max-width: 80%;
+            margin:0 auto;
+        } 
+        .section-information {
+            background-color: white;
+            padding: 10px;
+        }
+        .section-form {
+            width: 100%;
+            margin-top: 20px;
+            background-color: white;
+        }
+        .navbar {
+            display: table;
+            width: 100%;
+        }
+
+        .menu {
+            float: right;
+        }
+
+        ul {
+            list-style: none;
+            text-transform: uppercase;
+        }
+
+        ul li {
+            float: left;
+            margin: 5px;
+        }
+
+        .main-body {
+            margin: 10px;
+        }
+
+        table tr td {
+            padding-right: 20px;
+        }
+
+        td label {
+            width: 100px;
+            max-width: 100px;
+        }
+        input {
+            width: 100%;
+        }
+        .kotak {
+            border: 1px solid black;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .bg-biru {
+            background-color: blue;
+            color: white;
+        }
+        .bg-abu {
+            background-color:transparent;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="menu">
+            <ul>
+                <li><a href="latihan1Day1.html">home</a></li>
+                <li><a href="latihan2Day1.html">product</a></li>
+                <li><a href="challenge2Day1.html">gallery</a></li>
+                <li><a href="challengeDay1.html">blog</a></li>
+                <li><a href="latihan1Day1.html">inventory</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="main-body">
+        <div class="main-content">
+            <form action="#" method="POST">
+                <div class="section-information">
+                    <table>
+                        <tr>
+                            <td rowspan="5"><img src="assets/images/photo1.jpg" alt="gambar oke" srcset=""></td>
+                            <td >
+                                
+                            </td>
+                            <td>Availability</td>
+                            <td>:</td>
+                            <td><label>Full Time</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Arifin</label>
+                                
+                            </td>
+                            <td>Usia</td>
+                            <td>:</td>
+                            <td><label>17</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Spesialis Anu</label>
+                            </td>
+                            <td>Lokasi</td>
+                            <td>:</td>
+                            <td><label>Depok</label></td>
+                        </tr>
+                        <tr>
+    
+                            <td></td>
+                            <td>Year Experience</td>
+                            <td>:</td>
+                            <td><label>27 tahun</label></td>
+                        </tr>
+                        <tr>
+                            <td><div class="kotak bg-biru">Kontak</div> <div class="kotak bg-abu">Resume</div></td>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><label>Arifin@Spesialis.com</label></td>
+                        </tr>
+                    </table>
+                </div>
+                <table class="section-form">
+                    <tr>
+                        <td>
+                            <label>Nama :</label>
+                            <input type="text" name="nama">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Role :</label>
+                            <input type="text" name="role">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Availability :</label>
+                            <input type="text" name="availability">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Age :</label>
+                            <input type="number" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Lokasi :</label>
+                            <input type="text" name="lokasi">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Year Experience :</label>
+                            <input type="number" name="yearexperience">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email :</label>
+                            <input type="email" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bg-biru" type="submit" name="Submit">
+                        </td>
+                    </tr>
+                </table>
+    
+            </form>
+        </div>
+        
+
+    </div>
+
+
+    <a href="latihan1.html">Link menuju latihan 1</a>
+</body>
+
+</html>
